@@ -19,7 +19,7 @@ ERROR_RESPONSE = {
 
 @pytest.fixture
 def api_client():
-    return PrimordialAPI(api_key="gAAAAABnAyBB_PtyFt3AV5Ikt-rEIOuSjDB1HGOB_mQxrPaOrnxKIby3C02Ty8dnTxXLLIN005LWKMxw8iPLVJxH4vlmhQy7bpbpR7P8JGDfiEZ4Rz2kN27J_9ydGP5SPHNpWBY2LbB8")
+    return PrimordialAPI(api_key="your_api_key")
 
 @patch('primordial_wrapper.api_wrapper.requests.get')
 def test_generate_ai_response_success(mock_get, api_client):
