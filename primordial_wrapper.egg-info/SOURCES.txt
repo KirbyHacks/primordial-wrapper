@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+primordial_wrapper/__init__.py
+primordial_wrapper/api_wrapper.py
+primordial_wrapper.egg-info/PKG-INFO
+primordial_wrapper.egg-info/SOURCES.txt
+primordial_wrapper.egg-info/dependency_links.txt
+primordial_wrapper.egg-info/requires.txt
+primordial_wrapper.egg-info/top_level.txt
+tests/__init__.py
+tests/test_primordial.py
