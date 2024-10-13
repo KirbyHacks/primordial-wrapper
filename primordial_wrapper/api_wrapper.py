@@ -1,7 +1,7 @@
 import requests
 
 class PrimordialAPI:
-    def __init__(self, api_key: str, base_url: str = "http://dlr-node.kys.gay:4685"):
+    def __init__(self, api_key: str, base_url: str = "http://dlr-node.kys.gay:4685/api"):
         self.api_key = api_key
         self.base_url = base_url
         self.headers = {
